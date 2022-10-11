@@ -1,0 +1,38 @@
+html,
+body {
+  text-align: center;
+  position: relative;
+  top: 150px;
+  align-items: center;
+}
+button {
+  background-color: darkgrey;
+  color: white;
+  font-size: 24px;
+  border: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  margin: 10px;
+}
+input {
+  height: 60px;
+  width: 150px;
+  border: 4px grey solid;
+  border-radius: 5px;
+  font-size: 32px;
+}
+label {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  position: relative;
+  top: -40px;
+}
+button:hover {
+  color: darkgrey;
+  background-color: white;
+  border: 4px grey solid;
+  border-radius: 5px;
+}
